@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'designgray':'#374754'
+        'designgray': '#374754',
+        'pricing':'#252B42'
       },
       spacing: {
         '33.25': '33.25rem',

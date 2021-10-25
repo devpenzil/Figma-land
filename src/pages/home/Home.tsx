@@ -4,6 +4,7 @@ import Features from './components/Features'
 import Hero from './components/Hero'
 import Partners from './components/Partners'
 import Player from './components/Player'
+import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
             <Details />
             <Partners />
             <Testimonials />
+            <Pricing />
         </div>
     )
 }
