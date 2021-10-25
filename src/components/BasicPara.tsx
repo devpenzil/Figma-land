@@ -1,12 +1,13 @@
 import React from 'react'
 interface para{
     label: string,
-    white?: boolean
+    white?: boolean,
+    classname?:string
 }
-const BasicPara:React.FC<para> = ({label,white}) => {
+const BasicPara:React.FC<para> = ({label,white,classname}) => {
     return (
         <>
-            <div className={ `${white ? 'text-white' : "" }  text-lg font-normal`}>{label}</div>
+            <div className={ `${classname} , ${white ? 'text-white' : ""  }  text-lg font-normal`}>{label}</div>
         </>
     )
 }

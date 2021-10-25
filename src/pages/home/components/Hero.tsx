@@ -13,6 +13,7 @@ function Hero() {
     return (
         <>
             <div className='hero h-screen w-full'>
+                <div className="container mx-auto">
                 <nav>
                     Navbar
                 </nav> 
@@ -27,6 +28,7 @@ function Hero() {
                     <div className='mt-8'>
                         <Button label={content.button} />
                     </div>
+                </div>
                 </div>
             </div>
            

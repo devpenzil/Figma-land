@@ -1,9 +1,12 @@
 import React from 'react'
-
-function SubHead() {
+interface head{
+    label: string,
+    classname?:string
+}
+const SubHead:React.FC<head> = ({label,classname}) => {
     return (
         <>
-            <div></div>
+            <div className={`${classname} text-5xl font-normal `}>{label}</div>
         </>
     )
 }

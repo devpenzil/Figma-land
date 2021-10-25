@@ -1,11 +1,12 @@
 import React from 'react'
 interface heading{
-    label:string
+    label: string,
+    classname?:string
 }
-const Heading:React.FC<heading> = ({label}) => {
+const Heading:React.FC<heading> = ({label, classname}) => {
     return (
         <>
-            <div className='text-7xl text-white font-bold'>{label}</div>
+            <div className={`${classname} text-7xl text-white font-bold`}>{label}</div>
         </>
     )
 }
