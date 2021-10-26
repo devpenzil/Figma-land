@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactUs from './components/ContactUs'
 import Details from './components/Details'
 import Features from './components/Features'
 import Footer from './components/Footer'
@@ -18,9 +19,7 @@ function Home() {
             <Partners />
             <Testimonials />
             <Pricing />
-            <div className='bg-white h-28'>
-
-            </div>
+            <ContactUs />
             <Footer />
         </div>
     )
