@@ -9,7 +9,7 @@ type pr = {
     f4: string,
     f5:string
 }
-interface price {
+interface price { 
   prices: pr;
 }
 const PriceCard: React.FC<price> = ({ prices }) => {
