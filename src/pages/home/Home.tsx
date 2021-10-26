@@ -8,7 +8,7 @@ import Partners from './components/Partners'
 import Player from './components/Player'
 import Pricing from './components/Pricing'
 import Testimonials from './components/Testimonials'
-
+import NavBar from './components/NavBar'
 function Home() {
     return (
         <div>
