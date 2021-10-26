@@ -5,6 +5,8 @@ import Input from '../../../components/Input'
 import SimpleHead from '../../../components/SimpleHead'
 import SubHead from '../../../components/SubHead'
 import TextArea from '../../../components/TextArea'
+import map from '../../../assets/map.png'
+import Icondsc from '../../../components/Icondsc'
 
 function ContactUs() {
     return (
@@ -29,7 +31,25 @@ function ContactUs() {
                             <Button label='Send' />
                         </div>
                     </div>
-                    <div>hello</div>
+                    <div>
+                        <div className='flex flex-row justify-between items-center my-4'>
+                            <div>
+                                <Icondsc label='6386 Spring St undefined Anchorage, Georgia 12473 United States' icon='fas fa-map-marker-alt' />
+                            </div>
+                            <div>
+                            <Icondsc label='(843) 555-0130' icon='fas fa-mobile-alt' />  
+                            </div>
+                            <div>
+                            <Icondsc label='willie.jennings@example.com' icon='far fa-envelope' />
+                            </div> 
+                        </div>
+                        <img src={map} alt="" className='mx-auto' />
+                        <div className='my-12 text-2xl text-blue-500 space-x-4'>
+                        <i className="fab fa-twitter"></i>
+                        <i className="fab fa-facebook-square"></i>
+                        <i className="fab fa-linkedin"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
